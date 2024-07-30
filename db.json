@@ -1,0 +1,1173 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-11-12T10:08:46.888Z",
+    "user": 2,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Tourist object (1)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-11-12T10:10:53.154Z",
+    "user": 2,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "hemant",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Is mainadmin\", \"Is tourist\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-11-12T10:21:30.377Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Rajasthan",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-11-14T14:21:26.404Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Adventure",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-11-14T14:21:31.046Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Family",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-11-14T14:21:37.133Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "National",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-11-14T14:21:40.533Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Religious",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-11-14T14:21:42.861Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "beach",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 6,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 6,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 6,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 6,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add categorys",
+    "content_type": 7,
+    "codename": "add_categorys"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change categorys",
+    "content_type": 7,
+    "codename": "change_categorys"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete categorys",
+    "content_type": 7,
+    "codename": "delete_categorys"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view categorys",
+    "content_type": 7,
+    "codename": "view_categorys"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add quality",
+    "content_type": 8,
+    "codename": "add_quality"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change quality",
+    "content_type": 8,
+    "codename": "change_quality"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete quality",
+    "content_type": 8,
+    "codename": "delete_quality"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view quality",
+    "content_type": 8,
+    "codename": "view_quality"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add states",
+    "content_type": 9,
+    "codename": "add_states"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change states",
+    "content_type": 9,
+    "codename": "change_states"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete states",
+    "content_type": 9,
+    "codename": "delete_states"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view states",
+    "content_type": 9,
+    "codename": "view_states"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add mainadmin",
+    "content_type": 10,
+    "codename": "add_mainadmin"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change mainadmin",
+    "content_type": 10,
+    "codename": "change_mainadmin"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete mainadmin",
+    "content_type": 10,
+    "codename": "delete_mainadmin"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view mainadmin",
+    "content_type": 10,
+    "codename": "view_mainadmin"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add tourist",
+    "content_type": 11,
+    "codename": "add_tourist"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change tourist",
+    "content_type": 11,
+    "codename": "change_tourist"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete tourist",
+    "content_type": 11,
+    "codename": "delete_tourist"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view tourist",
+    "content_type": 11,
+    "codename": "view_tourist"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add tour places",
+    "content_type": 12,
+    "codename": "add_tourplaces"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change tour places",
+    "content_type": 12,
+    "codename": "change_tourplaces"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete tour places",
+    "content_type": 12,
+    "codename": "delete_tourplaces"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view tour places",
+    "content_type": 12,
+    "codename": "view_tourplaces"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add tour more places",
+    "content_type": 13,
+    "codename": "add_tourmoreplaces"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change tour more places",
+    "content_type": 13,
+    "codename": "change_tourmoreplaces"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete tour more places",
+    "content_type": 13,
+    "codename": "delete_tourmoreplaces"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view tour more places",
+    "content_type": 13,
+    "codename": "view_tourmoreplaces"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add packages",
+    "content_type": 14,
+    "codename": "add_packages"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change packages",
+    "content_type": 14,
+    "codename": "change_packages"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete packages",
+    "content_type": 14,
+    "codename": "delete_packages"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view packages",
+    "content_type": 14,
+    "codename": "view_packages"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add carousel m",
+    "content_type": 15,
+    "codename": "add_carouselm"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change carousel m",
+    "content_type": 15,
+    "codename": "change_carouselm"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete carousel m",
+    "content_type": 15,
+    "codename": "delete_carouselm"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view carousel m",
+    "content_type": 15,
+    "codename": "view_carouselm"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add tourbooking",
+    "content_type": 16,
+    "codename": "add_tourbooking"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change tourbooking",
+    "content_type": 16,
+    "codename": "change_tourbooking"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete tourbooking",
+    "content_type": 16,
+    "codename": "delete_tourbooking"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view tourbooking",
+    "content_type": 16,
+    "codename": "view_tourbooking"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add review pack",
+    "content_type": 17,
+    "codename": "add_reviewpack"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change review pack",
+    "content_type": 17,
+    "codename": "change_reviewpack"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete review pack",
+    "content_type": 17,
+    "codename": "delete_reviewpack"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can view review pack",
+    "content_type": 17,
+    "codename": "view_reviewpack"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 69,
+  "fields": {
+    "name": "Can add wish list",
+    "content_type": 18,
+    "codename": "add_wishlist"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 70,
+  "fields": {
+    "name": "Can change wish list",
+    "content_type": 18,
+    "codename": "change_wishlist"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 71,
+  "fields": {
+    "name": "Can delete wish list",
+    "content_type": 18,
+    "codename": "delete_wishlist"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 72,
+  "fields": {
+    "name": "Can view wish list",
+    "content_type": 18,
+    "codename": "view_wishlist"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "fty0i2amb80alptr2k3rz5r6ciq1oeba",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-xD9K-pzB8nrXOIAcKU4qxN1JpBTQvpk3bxbTtta4dVrihOzKJLv8bpDyk9oB8JHafeZ5busyAT8UftLOxxnpdTvdv0BNve5vZYnKkKEkqwKIAN6CUVL5AYT2WYJz2mQbnAgIGv1ezoU8Jm28LGjY5wvvfDhq:1r2uId:hjdmP3jU-aDeOWGLxtcNNgEudCSG6DUp0l0CPutmENg",
+    "expire_date": "2023-11-28T14:21:55.269Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "goasqbmkew0dvtb950lyspth1u0zdtvg",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlnYG_yhpOcM1u56jQPIkeKkQtwdIqWA9s3Me6mE61LT2mVOY1ZnZdThdyPkh7QN5Du226R5ass8kt4UvdOur1OW52V3_w4q9vqtKYQBnBVgEYhcHIoHH9ACWVsMx2yB6UQDu-ydiwWNO6IvQB4jFlLvD_EVOJk:1r3WXB:QvI7aeYeZ94GDbT1YN561s1Jr-9pb5XKCoIba7w4e1A",
+    "expire_date": "2023-11-30T07:11:29.766Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gyo29o8gdgaqgi681kdy8612s1s7sg2c",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAYoASX7j0DGWBGqoYmpV013t026UK3_733NxFxXWpcO81xLOIqtLj8bgnzi9oByhPbY5J5ass8Jnko8qRd3qdC79vp_h1U7HWvB6uZnWcgP7BDr4AxW-3JeGPBsdWoVQoKrPXskuHgCHYO2UAg1uLzBc2bNxE:1r3bNH:g_Gxx0xWz72A2FMd7TSuxQfj-8kue5WPy_U3GdYyejo",
+    "expire_date": "2023-11-30T12:21:35.533Z"
+  }
+},
+{
+  "model": "mainapp.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$1CkO5F8ttAKVBuN5kxj1Cu$Eg+ZOw0UygYmttcFTpHaguj0OYPY/YBSHHLikTgE9gA=",
+    "last_login": "2024-03-29T08:34:25.105Z",
+    "is_superuser": false,
+    "username": "hemant",
+    "first_name": "hemant",
+    "last_name": "gupta",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-11-12T10:07:04Z",
+    "email": "hemant@gmail.com",
+    "is_mainadmin": true,
+    "is_tourist": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "mainapp.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$qi6ckohTp3fBbELzJSNvJt$tscjLlctytZ1JoSxgwA7cbuZg2+7n3b/XLIbmZoOVD4=",
+    "last_login": "2024-03-29T08:33:57.674Z",
+    "is_superuser": true,
+    "username": "mukesh",
+    "first_name": "",
+    "last_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-11-12T10:08:07.812Z",
+    "email": "mukesh@gmail.com",
+    "is_mainadmin": false,
+    "is_tourist": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "mainapp.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$adz4on4JXOLuNwmvWjbj7b$aQ5I2+sSp/d7ugHjZYbnLcF+HNs9MfUegaYHqSw0gKI=",
+    "last_login": "2023-11-22T14:32:35.989Z",
+    "is_superuser": false,
+    "username": "rahul",
+    "first_name": "rahul",
+    "last_name": "jain",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2023-11-14T14:14:59.636Z",
+    "email": "sunkon.com@gmail.com",
+    "is_mainadmin": false,
+    "is_tourist": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "mainapp.tourist",
+  "pk": 1,
+  "fields": {
+    "first_name": "hemant",
+    "last_name": "gupta",
+    "contact_no": "8454058933",
+    "age": "28"
+  }
+},
+{
+  "model": "mainapp.tourist",
+  "pk": 3,
+  "fields": {
+    "first_name": "rahul",
+    "last_name": "jain",
+    "contact_no": "8454058933",
+    "age": "21"
+  }
+},
+{
+  "model": "mainapp.categorys",
+  "pk": 1,
+  "fields": {
+    "c_name": "Adventure"
+  }
+},
+{
+  "model": "mainapp.categorys",
+  "pk": 2,
+  "fields": {
+    "c_name": "Family"
+  }
+},
+{
+  "model": "mainapp.categorys",
+  "pk": 3,
+  "fields": {
+    "c_name": "National"
+  }
+},
+{
+  "model": "mainapp.categorys",
+  "pk": 4,
+  "fields": {
+    "c_name": "Religious"
+  }
+},
+{
+  "model": "mainapp.categorys",
+  "pk": 5,
+  "fields": {
+    "c_name": "beach"
+  }
+},
+{
+  "model": "mainapp.states",
+  "pk": 1,
+  "fields": {
+    "s_name": "Maharashtra"
+  }
+},
+{
+  "model": "mainapp.states",
+  "pk": 2,
+  "fields": {
+    "s_name": "Kashmir"
+  }
+},
+{
+  "model": "mainapp.states",
+  "pk": 4,
+  "fields": {
+    "s_name": "Goa"
+  }
+},
+{
+  "model": "mainapp.states",
+  "pk": 5,
+  "fields": {
+    "s_name": "Uttarakhand"
+  }
+},
+{
+  "model": "mainapp.states",
+  "pk": 6,
+  "fields": {
+    "s_name": "Gujarat"
+  }
+},
+{
+  "model": "mainapp.states",
+  "pk": 7,
+  "fields": {
+    "s_name": "Himachal Pradesh"
+  }
+},
+{
+  "model": "mainapp.quality",
+  "pk": 1,
+  "fields": {
+    "q_name": "Budget"
+  }
+},
+{
+  "model": "mainapp.quality",
+  "pk": 2,
+  "fields": {
+    "q_name": "First-class"
+  }
+},
+{
+  "model": "mainapp.quality",
+  "pk": 3,
+  "fields": {
+    "q_name": "Luxury"
+  }
+},
+{
+  "model": "mainapp.quality",
+  "pk": 4,
+  "fields": {
+    "q_name": "Deluxe"
+  }
+},
+{
+  "model": "mainapp.tourplaces",
+  "pk": 1,
+  "fields": {
+    "state": 1,
+    "description": "Maharashtra is a state in the western peninsular region of India occupying a substantial portion of the Deccan Plateau",
+    "placeImage": "places/Elephantacaves_JsMJDgH.jpg",
+    "tour_active": true
+  }
+},
+{
+  "model": "mainapp.tourplaces",
+  "pk": 2,
+  "fields": {
+    "state": 4,
+    "description": "Goa is a state on the southwestern coast of India within the Konkan region, geographically separated from the Deccan highlands by the Western Ghats.",
+    "placeImage": "places/goa_mDgTqXq.jpg",
+    "tour_active": true
+  }
+},
+{
+  "model": "mainapp.tourplaces",
+  "pk": 3,
+  "fields": {
+    "state": 2,
+    "description": "Kashmir, region of the northwestern Indian subcontinent. It is bounded by the Uygur Autonomous Region of Xinjiang to the northeast and the Tibet Autonomous Region to the east (both parts of China), by the Indian states of Himachal Pradesh and Punjab to the south, by Pakistan to the west, and by Afghanistan to the northwest.",
+    "placeImage": "places/kashime_ddIDeqa.png",
+    "tour_active": true
+  }
+},
+{
+  "model": "mainapp.tourmoreplaces",
+  "pk": 2,
+  "fields": {
+    "tourplace": 1,
+    "place_name": "Gateway of india",
+    "description": "The Gateway of India is an arch-monument completed in 1924 on the waterfront of Mumbai (Bombay), India.",
+    "source_link": "https://www.google.com/maps/d/embed?mid=14dSTUzoyHFc8STbDTRpI_k_9OcI&hl=en&ehbc=2E312F",
+    "placeImage": "moreplaces/gateway_ofindia_7UMAUO3.jpg",
+    "category": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "mainapp.tourmoreplaces",
+  "pk": 3,
+  "fields": {
+    "tourplace": 1,
+    "place_name": "Chhatrapati Shivaji Terminus",
+    "description": "Chhatrapati Shivaji Maharaj Terminus is a historic railway station in the city of Mumbai, India. It is a UNESCO World Heritage Site. Its name used to be Victoria Terminus.[2] The station is also called VT (as short-form of Victoria Terminus) or CST (as short-form of Chhatrapati Shivaji Terminus). The station was built in 1887.",
+    "source_link": "https://www.google.com/maps/d/embed?mid=163dIx3oqNvfxlbwPjSBGxdCZL7o&hl=en_US&ehbc=2E312F",
+    "placeImage": "moreplaces/Chhatrapati-Shivaji-Terminus_m8xJpiw.jpg",
+    "category": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "mainapp.tourmoreplaces",
+  "pk": 4,
+  "fields": {
+    "tourplace": 2,
+    "place_name": "Palolem Beach",
+    "description": "It is a nice long beach where it has almost everything for everyone. You can swim safely, lie on the sand, play frisbee, kayak and what not.",
+    "source_link": "https://www.google.com/maps/d/embed?mid=1S286b35hJ1dLikeowCku8r1bohg&hl=en_US&ehbc=2E312F",
+    "placeImage": "moreplaces/palolem-sea-beach.jpg",
+    "category": [
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "mainapp.tourmoreplaces",
+  "pk": 5,
+  "fields": {
+    "tourplace": 2,
+    "place_name": "Panaji",
+    "description": "Panaji (/ˈpʌnədʒi/; Goan Konkani: Ponnjem, IPA: [pɵɳdʒĩ]; also known as Panjim) is the capital of the Indian state of Goa and the headquarters of North Goa district. Previously, it was the territorial capital of the former Portuguese India.",
+    "source_link": "https://www.google.com/maps/d/embed?mid=1-CqmZFJKuvnaS--Mgd7qcftCW2c&hl=en_US&ehbc=2E312F",
+    "placeImage": "moreplaces/146.jpg",
+    "category": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "mainapp.tourmoreplaces",
+  "pk": 6,
+  "fields": {
+    "tourplace": 2,
+    "place_name": "Vagator",
+    "description": "This rocky beach is so far my most favorite beach in Goa. It is very scenic and just enough vibrancy without becoming overly commercialized like Baga Beach.",
+    "source_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15371.465860485598!2d73.74687219999998!3d15.59878185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfe97d6e4b498f%3A0xe891136b039794d2!2sVagator%2C%20Goa%20403519!5e0!3m2!1sen!2sin!4v1700120341854!5m2!1sen!2sin",
+    "placeImage": "moreplaces/vagator-beach-in-goa-reviews.jpg",
+    "category": [
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "mainapp.tourmoreplaces",
+  "pk": 7,
+  "fields": {
+    "tourplace": 3,
+    "place_name": "Betaab Valley",
+    "description": "Betaab valley, originally called as Hajan Valley or Hagan Valley, is situated at a distance of 15 km (9.3 mi) from Pahalgam in the Anantnag district in India's union territory of Jammu and Kashmir.",
+    "source_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.6027307264008!2d75.36131387571655!3d34.054060373156254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e240b888816139%3A0xf506e0ee7ebc9986!2sBetaab%20Valley!5e0!3m2!1sen!2sin!4v1700471998699!5m2!1sen!2sin",
+    "placeImage": "moreplaces/BVP1_DYBiHvY.jpg",
+    "category": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "mainapp.tourmoreplaces",
+  "pk": 8,
+  "fields": {
+    "tourplace": 3,
+    "place_name": "Shah Kashmir Arts Emporium",
+    "description": "Nishat Bagh is a terraced Mughal garden built on the eastern side of the Dal Lake, close to Srinagar in the union territory of Jammu and Kashmir, India.",
+    "source_link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52855.384390485604!2d74.80878984084075!3d34.108932522444604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e186712355c3b3%3A0xfd3ff78f3ff0e494!2sShah%20Kashmir%20Arts%20Emporium!5e0!3m2!1sen!2sin!4v1700472288552!5m2!1sen!2sin",
+    "placeImage": "moreplaces/shah-kashmir-arts-emporium-1450411_G6wGjM9.webp",
+    "category": [
+      1,
+      2
+    ]
+  }
+},
+{
+  "model": "mainapp.packages",
+  "pk": 2,
+  "fields": {
+    "tourplace": 1,
+    "pack_name": "Family pack",
+    "pack_facility": "general class\r\nlunch and dinner\r\ntourist guide",
+    "pack_member": 50,
+    "start_date": "2023-11-19",
+    "end_date": "2023-11-21",
+    "quality": 1,
+    "pack_price": 1300
+  }
+},
+{
+  "model": "mainapp.packages",
+  "pk": 3,
+  "fields": {
+    "tourplace": 1,
+    "pack_name": "Luxury pack",
+    "pack_facility": "Luxury class\r\nany time food,\r\nsleeper compartment",
+    "pack_member": 28,
+    "start_date": "2023-11-18",
+    "end_date": "2023-11-22",
+    "quality": 3,
+    "pack_price": 2500
+  }
+},
+{
+  "model": "mainapp.packages",
+  "pk": 4,
+  "fields": {
+    "tourplace": 1,
+    "pack_name": "First class pack",
+    "pack_facility": "First class,\r\nbreak first, lunch, dinner",
+    "pack_member": 40,
+    "start_date": "2023-11-29",
+    "end_date": "2023-12-02",
+    "quality": 2,
+    "pack_price": 1800
+  }
+},
+{
+  "model": "mainapp.carouselm",
+  "pk": 1,
+  "fields": {
+    "t_place": 1
+  }
+},
+{
+  "model": "mainapp.carouselm",
+  "pk": 2,
+  "fields": {
+    "t_place": 2
+  }
+},
+{
+  "model": "mainapp.carouselm",
+  "pk": 3,
+  "fields": {
+    "t_place": 3
+  }
+},
+{
+  "model": "mainapp.tourbooking",
+  "pk": 7,
+  "fields": {
+    "b_user": 1,
+    "b_pack": 3,
+    "contact": "8454058933",
+    "b_email": "hemant@gmail.com",
+    "b_members": 2,
+    "b_price": 5000
+  }
+}
+]
